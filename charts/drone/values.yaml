@@ -205,6 +205,7 @@ env:
   ##
   DRONE_GITHUB_CLIENT_ID:
   DRONE_GITHUB_CLIENT_SECRET:
+  DRONE_USER_CREATE: username:liehart,admin:true
 
   ## GitLab-specific variables. See the provider docs here:
   ## Ref: https://docs.drone.io/installation/providers/gitlab/
