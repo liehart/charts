@@ -151,7 +151,7 @@ emptyDir:
 ##
 extraSecretNamesForEnvFrom:
 # - my-drone-secrets
-- drone-github-secret
+# - drone-github-secret
 
 ## The keys within the "env" map are mounted as environment variables on the Drone server pod.
 ## See the full reference of Drone server environment variables here:
