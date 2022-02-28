@@ -204,16 +204,16 @@ env:
   ##
   # DRONE_GITHUB_CLIENT_ID:
   # DRONE_GITHUB_CLIENT_SECRET:
-  - name: DRONE_GITHUB_CLIENT_ID
-      valueFrom:
-        secretKeyRef:
-          name: drone-github-secret
-          key: github-client-id
-    name: DRONE_GITHUB_CLIENT_SECRET
-      valueFrom:
-        secretKeyRef:
-          name: drone-github-secret
-          key: github-secret
+  name: DRONE_GITHUB_CLIENT_ID
+    valueFrom:
+      secretKeyRef:
+        name: drone-github-secret
+        key: github-client-id
+  name: DRONE_GITHUB_CLIENT_SECRET
+    valueFrom:
+      secretKeyRef:
+        name: drone-github-secret
+        key: github-secret
 
   ## GitLab-specific variables. See the provider docs here:
   ## Ref: https://docs.drone.io/installation/providers/gitlab/
