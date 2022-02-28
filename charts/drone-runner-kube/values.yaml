@@ -109,7 +109,7 @@ env:
   ## key via a separately provisioned secret (see existingSecretName above).
   ## Ref: https://kube-runner.docs.drone.io/installation/reference/drone-rpc-secret/
   ##
-  DRONE_RPC_SECRET:
+  DRONE_RPC_SECRET: secret
 
   ## The hostname/IP (and optionally the port) for your Kubernetes runner. Defaults to the "drone"
   ## service that the drone server Chart creates by default.
