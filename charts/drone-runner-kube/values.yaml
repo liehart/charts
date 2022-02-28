@@ -1,5 +1,6 @@
 image:
   repository: drone/drone-runner-kube
+  tag: 1.0.0-beta.6
   pullPolicy: IfNotPresent
 
 ## If you need to pull images from a private Docker image repository, pass in the name
@@ -109,7 +110,7 @@ env:
   ## key via a separately provisioned secret (see existingSecretName above).
   ## Ref: https://kube-runner.docs.drone.io/installation/reference/drone-rpc-secret/
   ##
-  DRONE_RPC_SECRET: secret
+  DRONE_RPC_SECRET: 'secret'
 
   ## The hostname/IP (and optionally the port) for your Kubernetes runner. Defaults to the "drone"
   ## service that the drone server Chart creates by default.
