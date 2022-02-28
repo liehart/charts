@@ -172,7 +172,7 @@ env:
   ## key via a separately provisioned secret (see existingSecretName above).
   ## Ref: https://docs.drone.io/installation/reference/drone-rpc-secret/
   ##
-  DRONE_RPC_SECRET: "from extraSecretNamesForEnvFrom"
+  # DRONE_RPC_SECRET: "from extraSecretNamesForEnvFrom"
 
   ## If you'd like to use a DB other than SQLite (the default), set a driver + DSN here.
   ## Ref: https://docs.drone.io/installation/storage/database/
@@ -203,8 +203,8 @@ env:
   ## GitHub-specific variables. See the provider docs here:
   ## Ref: https://docs.drone.io/installation/providers/github/
   ##
-  DRONE_GITHUB_CLIENT_ID: "from extraSecretNamesForEnvFrom"
-  DRONE_GITHUB_CLIENT_SECRET: "from extraSecretNamesForEnvFrom"
+  # DRONE_GITHUB_CLIENT_ID: "from extraSecretNamesForEnvFrom"
+  # DRONE_GITHUB_CLIENT_SECRET: "from extraSecretNamesForEnvFrom"
 
   ## GitLab-specific variables. See the provider docs here:
   ## Ref: https://docs.drone.io/installation/providers/gitlab/
