@@ -149,7 +149,7 @@ emptyDir:
 ## variables, with each key/value mapping to a corresponding environment variable on the
 ## Drone server.
 ##
-extraSecretNamesForEnvFrom:
+extraSecretNamesForEnvFrom: []
 # - my-drone-secrets
 # - drone-github-secret
 
